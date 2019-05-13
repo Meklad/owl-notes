@@ -1,4 +1,5 @@
 # owl-notes
+Electron desctop app created useing vue.js
 
 ## Project setup
 ```
