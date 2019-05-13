@@ -1,6 +1,7 @@
 {
   "name": "owl-notes",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Electron desktop app uses vue.js",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -14,6 +15,7 @@
   "main": "background.js",
   "dependencies": {
     "core-js": "^2.6.5",
+    "element-ui": "^2.8.2",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
@@ -26,7 +28,36 @@
     "electron": "^5.0.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
     "vue-cli-plugin-electron-builder": "^1.3.2",
     "vue-template-compiler": "^2.5.21"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Meklad/owl-notes.git"
+  },
+  "keywords": [
+    "Electron",
+    "Webpack",
+    "Vue.js",
+    "Vue",
+    "electron-webpack",
+    "Desktop-App",
+    "desktop-app",
+    "Desktop",
+    "App",
+    "Desktop App",
+    "desktop app"
+  ],
+  "author": {
+    "name": "Ahmed Meklad",
+    "email": "ahmed.meklad.news@gmail.com",
+    "url": "https://github.com/Meklad"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Meklad/owl-notes/issues"
+  },
+  "homepage": "https://github.com/Meklad/owl-notes#readme"
 }
